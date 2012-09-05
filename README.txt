@@ -51,8 +51,8 @@ INSTALLATION
 ------------
 
 Place the files in the './bin' directory into any directory you like. Make sure that 
-the installation directory is in your PATH variable, else you need to start the tools 
-using the installation path like
+the installation directory is in your PATH variable, else you need to start the 
+tools using the installation path like
 
 # /path/to/pplatex/ppdflatex <options>
 
