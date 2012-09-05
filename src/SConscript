@@ -1,0 +1,14 @@
+Import('env')
+
+objs = [
+    'main.cpp',
+    'regex.cpp',
+    'outputinfo.cpp',
+    'outputfilter.cpp',
+    'latexoutputfilter.cpp'
+    ]
+
+
+app = env.Program('#bin/pplatex', objs)
+
+Return('app')

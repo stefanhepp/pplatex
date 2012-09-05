@@ -1,0 +1,31 @@
+#!/bin/bash
+
+config=~/.$(basename $0).conf
+
+COMMAND=lualatex
+PPLATEX=pplatex
+PPLATEX_ARGS=
+
+if [ -f $config ]; then
+    source $config
+fi
+
+args=
+hasdash=false
+while [ ! -z "$1" ]; do
+    if [ "$1" == "--" ]; then
+	hasdash=true
+    elif [ "$1" == "-h" -o "$1" == "--help" -o "$1" == "-V" -o "$1" == "--version" ]; then
+	# we pass these options to pplatex instead of latex
+	hasdash=true
+    fi
+    args="$args $1"
+    shift
+done
+
+if [ "$hasdash" != "true" ]; then
+    args="-- $args"
+fi
+
+$PPLATEX -c $COMMAND $PPLATEX_ARGS $args
+exit $?
