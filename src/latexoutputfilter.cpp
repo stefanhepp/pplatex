@@ -614,9 +614,11 @@ bool LatexOutputFilter::detectBadBoxLineNumber(string & strLine, short & dwCooki
 
 	static Regex reBadBoxLines("(.*) at lines ([0-9]+)--([0-9]+)", true);
 	static Regex reBadBoxLine("(.*) at line ([0-9]+)", true);
-	//Use the following only, if you know how to get the source line for it.
+	// Use the following only, if you know how to get the source line for it.
 	// This is not simple, as TeX is not reporting it.
-	static Regex reBadBoxOutput("(.*)has occurred while \\output is active^", true);
+	// Use four backslashes, as every second one is used when generating the C string and two backslashes
+	// are needed for a correct regular expression, as there the backslash must be escaped.
+	static Regex reBadBoxOutput("(.*)has occurred while \\\\output is active^", true);
 
 	string match = strLine;
 
