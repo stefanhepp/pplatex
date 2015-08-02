@@ -18,8 +18,8 @@ LatexSetup.SetupEnv(env)
 
 if env['CC'] == 'cl':
     env.Append( CPPFLAGS=['/EHsc'] )
-
-# TODO if we link statically with PCRE on windows with MSVC, set /DPCRE_STATIC, or make this an config option.
+    # TODO if we link statically with PCRE on windows with MSVC, set PCRE_STATIC automatically, or make this an config option.
+    #env.Append( CPPDEFINES=['PCRE_STATIC'] )
 
 if env.get('PCREPATH', None) is not None:
     env.Append( LIBPATH=[ env['PCREPATH']+'/lib' ] )
