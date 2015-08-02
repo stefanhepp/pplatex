@@ -10,3 +10,11 @@
 *.lai
 *.la
 *.a
+
+# SCons files
+*.pyc
+.sconsign.dblite
+
+# Build directories
+bin
+tmp
