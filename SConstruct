@@ -26,14 +26,24 @@ if env.get('PCREPATH', None) is not None:
     env.Append( CPPPATH=[ env['PCREPATH']+'/include' ] )
 env.Append( LIBS=['pcreposix'] )
 
+# Build the main program and copy it with different filenames
 app = SConscript("src/SConscript", variant_dir="obj", duplicate=0, exports="env")
-app2 = env.FileCopy("bin/ppdflatex"+env['PROGSUFFIX'], app)
+pdftex = env.FileCopy("bin/ppdflatex"+env['PROGSUFFIX'], app)
+if env['PLATFORM'] == 'posix':
+    # On linux, we use the shell script for luatex that supports a user config
+    luatex = env.FileCopy("bin/ppluatex", "src/ppluatex")
+else:
+    # Otherwise, we just copy the binary again.
+    pdftex = env.FileCopy("bin/ppluatex"+env['PROGSUFFIX'], app)
 
+
+# For testing, run the .tex files in test/ through pplatex inside a temp directory
 VariantDir('tmp', 'test', duplicate=1)
 pdf = PDF('tmp/test.tex')
 pdf2 = PDF('tmp/test_paren.tex')
 
-Alias('app', app2)
+# Setup aliases and default target
+Alias('app', [pdftex,luatex] )
 Alias('test', [pdf,pdf2] )
 
 Default('app')

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 check_exists() {
     local file=$1
@@ -27,17 +27,18 @@ rm -rf $releasedir
 mkdir -p $releasedir
 
 # Create a clean copy
-tar -c --exclude=.svn --exclude=obj --exclude=tmp --exclude=dist * | (cd $releasedir && tar -x)
+tar -c --exclude=.git --exclude=.sconsign.dblite --exclude=obj --exclude=tmp --exclude=dist * | (cd $releasedir && tar -x)
 mkdir $releasedir/dist
 mkdir $releasedir/obj
 mkdir $releasedir/tmp
 
-check_exists "bin/pcre3.dll"
-check_exists "bin/pcreposix3.dll"
+# Linking statically on Windows now ..
+#check_exists "bin/pcre3.dll"
+#check_exists "bin/pcreposix3.dll"
 
 # Create the dist files
 
 tar -czf dist/$rname-src.tar.gz -C dist $rname
-(cd dist && zip $rname-win32.zip $rname/*.txt $rname/bin/*.exe $rname/bin/*.dll)
-(cd dist && zip $rname-linux.zip $rname/*.txt $rname/bin/pplatex $rname/bin/ppdflatex)
+(cd dist && zip     $rname-win32.zip    $rname/*{.txt,.md} $rname/bin/*.exe $rname/bin/*.dll)
+(cd dist && tar czf $rname-linux.tar.gz $rname/*{.txt,.md} $rname/bin/{pplatex,ppdflatex,ppluatex})
 
