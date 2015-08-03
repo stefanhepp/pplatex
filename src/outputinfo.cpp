@@ -81,7 +81,7 @@ LatexOutputInfo::LatexOutputInfo(const string& strSrcFile, int nSrcLine, int nOu
 {
 }
 
-void LatexOutputInfo::addMessage(const string& msg) 
+void LatexOutputInfo::addMessage(const string& msg, bool addSpace) 
 {
     if (msg.empty() || 
 	msg == "Type  H <return>  for immediate help." ||
@@ -102,8 +102,8 @@ void LatexOutputInfo::addMessage(const string& msg)
 	line = msg;
     }
 
-    if (m_strError.length() + line.length() < 80) {
-	m_strError = m_strError + line;
+    if (m_strError.length() + line.length() + (addSpace ? 1 : 0) < 80) {
+	m_strError = m_strError + (addSpace ? " " : "") + line;
     } else {
 	m_strError = m_strError + "\n   " + line;
     }

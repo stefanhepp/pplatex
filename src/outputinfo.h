@@ -112,7 +112,7 @@ class LatexOutputInfo : public OutputInfo
 	
 	std::string getMessage();
 
-	void addMessage(const std::string& msg);
+	void addMessage(const std::string& msg, bool addSpace = true);
 
     public:
 	/**

@@ -91,6 +91,11 @@ class LatexOutputFilter : public OutputFilter
 
 	bool fileExists(const std::string & name);
 
+	/** 
+	Check if we need to add a space when we append a message to the last line 
+	 */
+	bool needsSpace();
+
         // types
     protected:
         /**
@@ -117,6 +122,9 @@ class LatexOutputFilter : public OutputFilter
         int m_nBadBoxes;
 
 	int m_nParens;
+
+	/** Length of the previous line, to check if we need a space in the next line */
+	int m_nLastLineLength;
 
 	bool m_nobadboxes;
 	bool m_quiet;

@@ -35,6 +35,9 @@ using namespace std;
 
 #define KILE_DEBUG() cerr
 
+// Maximum length of a latex log line.
+#define MAX_LATEX_LINE_LENGTH  79
+
 static bool file_exists(const string &name)
 {
     struct stat info;
@@ -139,6 +142,13 @@ bool LatexOutputFilter::fileExists(const string & name)
     */
 
     return false;
+}
+
+bool LatexOutputFilter::needsSpace()
+{
+    // Heuristic: If the last line was as long as possible, we assume latex did
+    // wrap around inside a word.
+    return m_nLastLineLength < MAX_LATEX_LINE_LENGTH;
 }
 
 // There are basically two ways to detect the current file TeX is processing:
@@ -405,7 +415,7 @@ bool LatexOutputFilter::detectError(const string & strLine, short &dwCookie)
 			//KILE_DEBUG() << "\tError (cont'd): " << strLine << endl;
 			if(endsWith(strLine,'.')) {
 				dwCookie = LineNumber;
-				m_currentItem.addMessage(strLine);
+				m_currentItem.addMessage(strLine, needsSpace());
 			}
 			else if(GetCurrentOutputLine() - m_currentItem.outputLine() > 5) {
 				cerr << "\tBAILING OUT: error description spans more than five lines" << endl;
@@ -421,6 +431,8 @@ bool LatexOutputFilter::detectError(const string & strLine, short &dwCookie)
 				flush = true;
 				//KILE_DEBUG() << "\tline number: " << reLineNumber.getMatch(strLine,1) << endl;
 				m_currentItem.setSourceLine(parseInt(reLineNumber.getMatch(strLine,1)));
+				// TODO Does latex wrap around into a new line that starts with 'l.'? Assuming it 
+				//      does not (we always add a space).
 				m_currentItem.addMessage(reLineNumber.getMatch(strLine,2));
 			}
 			else if(GetCurrentOutputLine() - m_currentItem.outputLine() > 10) {
@@ -429,7 +441,7 @@ bool LatexOutputFilter::detectError(const string & strLine, short &dwCookie)
 				cerr << "\tBAILING OUT: did not detect a TeX line number for an error" << endl;
 				m_currentItem.setSourceLine(0);
 			} else {
-				m_currentItem.addMessage(strLine);
+				m_currentItem.addMessage(strLine, needsSpace());
 			}
 		break;
 
@@ -506,7 +518,7 @@ bool LatexOutputFilter::detectWarning(const string & strLine, short &dwCookie)
 	    //warning spans multiple lines, detect the end
 	    case Warning :
 		flush = detectLaTeXLineNumber(warning, dwCookie, strLine.length());
-		m_currentItem.addMessage(strLine);
+		m_currentItem.addMessage(strLine, needsSpace());
 		break;
 
 	    default:
@@ -686,12 +698,15 @@ short LatexOutputFilter::parseLine(const string & strLine, short dwCookie)
 			break;
 	}
 
+	m_nLastLineLength = strLine.length();
+
 	return dwCookie;
 }
 
 bool LatexOutputFilter::run(FILE *out)
 {
 	m_nErrors = m_nWarnings = m_nBadBoxes = m_nParens = 0;
+	m_nLastLineLength = 0;
 	while (!m_stackFile.empty()) {
 	    m_stackFile.pop();
 	}
