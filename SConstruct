@@ -34,7 +34,7 @@ if env['PLATFORM'] == 'posix':
     luatex = env.FileCopy("bin/ppluatex", "src/ppluatex")
 else:
     # Otherwise, we just copy the binary again.
-    pdftex = env.FileCopy("bin/ppluatex"+env['PROGSUFFIX'], app)
+    luatex = env.FileCopy("bin/ppluatex"+env['PROGSUFFIX'], app)
 
 
 # For testing, run the .tex files in test/ through pplatex inside a temp directory
