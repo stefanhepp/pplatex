@@ -27,7 +27,10 @@ Result: o) Errors: 1, Warnings: 1, BadBoxes: 0
 ```
 
 The code is based on the LaTeX output parser of [Kile](http://kile.sourceforge.net/) (also used by TexMakerX),
-with some modifications and bugfixes.
+with some modifications and bugfixes. Be aware that since the log output of the
+LaTeX tools is not well defined (in any sense of the word), parsing is done by
+a heuristic that might fail in some cases (like having directories with spaces
+or special characters).
 
 In contrast to [rubber](https://launchpad.net/rubber), pplatex does *not* run your latex tools multiple times 
 when references change or compile your images or the like. This remains the task
