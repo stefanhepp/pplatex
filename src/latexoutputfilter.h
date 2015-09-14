@@ -124,7 +124,7 @@ class LatexOutputFilter : public OutputFilter
 	int m_nParens;
 
 	/** Length of the previous line, to check if we need a space in the next line */
-	int m_nLastLineLength;
+	size_t m_nLastLineLength;
 
 	bool m_nobadboxes;
 	bool m_quiet;
