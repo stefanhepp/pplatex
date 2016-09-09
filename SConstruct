@@ -7,6 +7,7 @@ CppSetup.AddVariables(vars)
 LatexSetup.AddVariables(vars)
 
 vars.Add(PathVariable('PCREPATH', 'Path of pcre library installation path.',None,PathVariable.PathAccept));
+vars.Add(PathVariable('DESTDIR', 'Destination directory.', None, PathVariable.PathAccept))
 
 env = DefaultEnvironment(variables=vars, ENV=CreateEnv(vars))
 env.Tool('file')
@@ -28,6 +29,7 @@ env.Append( LIBS=['pcreposix'] )
 
 # Build the main program and copy it with different filenames
 app = SConscript("src/SConscript", variant_dir="obj", duplicate=0, exports="env")
+latex = app
 pdftex = env.FileCopy("bin/ppdflatex"+env['PROGSUFFIX'], app)
 if env['PLATFORM'] == 'posix':
     # On linux, we use the shell script for luatex that supports a user config
@@ -41,6 +43,12 @@ else:
 VariantDir('tmp', 'test', duplicate=1)
 pdf = PDF('tmp/test.tex')
 pdf2 = PDF('tmp/test_paren.tex')
+
+# Install
+prefix = env.get('DESTDIR', '') + '/usr'
+bindir = prefix + '/bin'
+env.Install(bindir, [latex, pdftex, luatex])
+Alias('install', bindir)
 
 # Setup aliases and default target
 Alias('app', [pdftex,luatex] )
