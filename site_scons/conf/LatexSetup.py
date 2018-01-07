@@ -18,38 +18,38 @@ def SetupEnv(env):
     
     latex = env['LATEX_PATH']
     if latex is not None:
-	env.PrependENVPath('PATH', latex)
-	env.Tool('tex')
-	env.Tool('gs')
-	env.Tool('latex')
-	env.Tool('dvipdf')
-	env.Tool('dvips')
-	env.Tool('pdflatex')
-	env.Tool('pdftex')
+        env.PrependENVPath('PATH', latex)
+        env.Tool('tex')
+        env.Tool('gs')
+        env.Tool('latex')
+        env.Tool('dvipdf')
+        env.Tool('dvips')
+        env.Tool('pdflatex')
+        env.Tool('pdftex')
 
     if UseLatexSync(env):
-	env['LATEXFLAGS'] = env['LATEXFLAGS'] + ' -synctex=1'
-	env['PDFLATEXFLAGS'] = env['PDFLATEXFLAGS'] + ' -synctex=1'
+        env['LATEXFLAGS'] = env['LATEXFLAGS'] + ' -synctex=1'
+        env['PDFLATEXFLAGS'] = env['PDFLATEXFLAGS'] + ' -synctex=1'
 
     pplatex = env.get('PPLATEX',None)
 
     if pplatex is None or pplatex == '':
-	return
+        return
 
     # TODO if latex tools are in a non-standard path, add -c <exe> -- to arguments, provide option to set latex path
 
     if pplatex == "auto":
-	if env.Detect(['pplatex','ppdflatex']):
-	    env['LATEX'] = 'pplatex'
-	    env['PDFLATEX'] = 'ppdflatex'
+        if env.Detect(['pplatex','ppdflatex']):
+            env['LATEX'] = 'pplatex'
+            env['PDFLATEX'] = 'ppdflatex'
 
     else:
-	env['LATEX'] = os.path.join(pplatex,'pplatex')
-	env['PDFLATEX'] = os.path.join(pplatex,'ppdflatex')
+        env['LATEX'] = os.path.join(pplatex,'pplatex')
+        env['PDFLATEX'] = os.path.join(pplatex,'ppdflatex')
 
     opts = env['PPLATEX_OPT']
 
     if opts != '':
-	env['LATEX'] = env['LATEX'] + ' ' + opts + ' -- '
-	env['PDFLATEX'] = env['PDFLATEX'] + ' ' + opts + ' -- '
+        env['LATEX'] = env['LATEX'] + ' ' + opts + ' -- '
+        env['PDFLATEX'] = env['PDFLATEX'] + ' ' + opts + ' -- '
 
