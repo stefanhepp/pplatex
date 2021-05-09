@@ -42,14 +42,9 @@ to compile LaTeX documents, images and lots of other stuff using SCons (see the
 Download
 ========
 
-Source packages can be found on this project's releases page on Github.
+Source packages and precompiled binaries can be found on this project's releases page on Github.
 
   https://github.com/stefanhepp/pplatex/releases
-
-Precompiled binaries are also available for Windows and Linux:
-
-- Linux (x64): [pplatex-1.0-rc2-linux-x64.tar.gz](https://dl.dropboxusercontent.com/u/12697903/pplatex/pplatex-1.0-rc2-linux.tar.gz)
-- Windows: [pplatex-1.0-rc2-win32.zip](https://dl.dropboxusercontent.com/u/12697903/pplatex/pplatex-1.0-rc2-win32.zip)
 
 For the Windows binaries to work, you will need to download and install the [Visual C++ Redistributable for Visual Studio 2015 (x86)](https://www.microsoft.com/en-us/download/details.aspx?id=48145) if you do not have it already.
 
