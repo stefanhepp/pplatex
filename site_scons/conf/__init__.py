@@ -1,9 +1,9 @@
-import MSVCSetup
-import SDLSetup
-import CUDASetup
-import OpenGLSetup
-import DSetup
-import LatexSetup
-import DiaSetup
-import GnuplotSetup
-import NotationSetup
+from . import MSVCSetup
+from . import SDLSetup
+from . import CUDASetup
+from . import OpenGLSetup
+from . import DSetup
+from . import LatexSetup
+from . import DiaSetup
+from . import GnuplotSetup
+from . import NotationSetup
