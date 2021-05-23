@@ -7,7 +7,7 @@ CppSetup.AddVariables(vars)
 LatexSetup.AddVariables(vars)
 
 vars.Add(PathVariable('PCREPATH', 'Path of pcre library installation path.',None,PathVariable.PathAccept));
-vars.Add(PathVariable('DESTDIR', 'Installation destination path prefix.', '/usr', PathVariable.PathAccept))
+vars.Add(PathVariable('DESTDIR', 'Installation destination "/bin" path prefix.', '/usr', PathVariable.PathAccept))
 
 env = DefaultEnvironment(variables=vars, ENV=CreateEnv(vars))
 env.Tool('file')
