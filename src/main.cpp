@@ -147,7 +147,7 @@ class ArgParser {
 		else if ( options == 1 && (arg == "-h" || arg == "--help") ) {
 		    help = true;
 		} 
-		else if ( options == 1 && (arg == "-V" || arg == "--verbose") ) {
+		else if ( options == 1 && (arg == "-V" || arg == "--version") ) {
 		    version = true;
 		}
 		else if ( !inputopt && (arg == "-i" || arg == "--input" ) ) {
