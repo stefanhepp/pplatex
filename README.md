@@ -53,7 +53,7 @@ Quick Start
 
 In your latex project directory, just run
 
-    path/to/ppdflatex myfile.tex
+    path/to/pplatex myfile.tex
 
 Use pplatex instead to run latex instead of pdflatex.
 
