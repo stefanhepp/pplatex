@@ -124,8 +124,11 @@ class ArgParser {
 		program = "latex";
 	    } else if ( name.compare(name.length()-9,9,"ppdflatex") == 0 ) {
 		program = "pdflatex";
-            } else {
+            } else if ( name.compare(name.length()-8,8,"ppluatex") == 0 ) {
 		program = "lualatex";
+	    } else {
+		cerr << "Invalid name for application binary." << endl;
+		exit(2);
 	    }
 
 	    char** args = &argv[1];
@@ -281,6 +284,7 @@ static void usage(char* program) {
     cout << "    -h, --help         Show this help" << endl;
     cout << endl;
     cout << "  By default, if the program is called 'pplatex', 'latex' will be executed," << endl;
+    cout << "  if it is called 'ppluatex' then 'lualatex' will be executed," << endl;
     cout << "  else 'pdflatex' will be used." << endl;
 }
 
