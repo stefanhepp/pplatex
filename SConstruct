@@ -51,7 +51,7 @@ Alias('install', bindir)
 
 # Setup aliases and default target
 Alias('app', [latex,pdftex,luatex] )
-Alias('test', [pdf,pdf2] )
+Alias('logs', [pdf,pdf2] )
 
 Default('app')
 

@@ -16,7 +16,7 @@ def AddVariables(vars):
 
 def SetupEnv(env):
     
-    latex = env['LATEX_PATH']
+    latex = env.get('LATEX_PATH', None)
     if latex is not None:
         env.PrependENVPath('PATH', latex)
         env.Tool('tex')
@@ -28,8 +28,8 @@ def SetupEnv(env):
         env.Tool('pdftex')
 
     if UseLatexSync(env):
-        env['LATEXFLAGS'] = env['LATEXFLAGS'] + ' -synctex=1'
-        env['PDFLATEXFLAGS'] = env['PDFLATEXFLAGS'] + ' -synctex=1'
+        env['LATEXFLAGS'] = env.get('LATEXFLAGS', '') + ' -synctex=1'
+        env['PDFLATEXFLAGS'] = env.get('PDFLATEXFLAGS', '') + ' -synctex=1'
 
     pplatex = env.get('PPLATEX',None)
 
@@ -47,9 +47,8 @@ def SetupEnv(env):
         env['LATEX'] = os.path.join(pplatex,'pplatex')
         env['PDFLATEX'] = os.path.join(pplatex,'ppdflatex')
 
-    opts = env['PPLATEX_OPT']
+    opts = env.get('PPLATEX_OPT', '')
 
     if opts != '':
-        env['LATEX'] = env['LATEX'] + ' ' + opts + ' -- '
-        env['PDFLATEX'] = env['PDFLATEX'] + ' ' + opts + ' -- '
-
+        env['LATEX'] = env.get('LATEX','') + ' ' + opts + ' -- '
+        env['PDFLATEX'] = env.get('PDFLATEX','') + ' ' + opts + ' -- '
