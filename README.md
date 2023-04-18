@@ -61,14 +61,14 @@ If your latex tools are not in your PATH, use
 
     path/to/pplatex -c path/to/pdflatex -- myfile.tex
 
-You can also use pplatex to parse an existing log file…
+You can also use pplatex to parse an existing log file ...
 
     # run pdflatex normally
     pdflatex myfile.tex
     # Process the logfile and print warnings and errors.
     pplatex -i myfile.log
 
-…or to filter the output of pdflatex/xelatex/lualatex:
+... or to filter the output of pdflatex/xelatex/lualatex:
 
     pdflatex myfile.tex | pplatex -i
 
