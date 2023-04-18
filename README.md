@@ -100,6 +100,9 @@ You can build either with SCons or CMake.
 Building with SCons
 -------------------
 
+In order for the SCons build to work, you need to have LaTeX installed in your
+PATH or set LATEX\_PATH to your LaTeX installation path.
+
 If the pcre headers are not in a standard path (or if you are on Windows), 
 create a './config.py' or './config-windows.py' (p.e. by copying if from 
 ./build/), and set PCREPATH to your PCRE installation path. 
