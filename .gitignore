@@ -17,4 +17,5 @@
 
 # Build directories
 bin
+build
 tmp
