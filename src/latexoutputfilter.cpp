@@ -473,7 +473,7 @@ bool LatexOutputFilter::detectWarning(const string & strLine, short &dwCookie)
 	bool found = false, flush = false;
 	string warning;
 
-	static Regex reLaTeXWarning("^(! )?(LaTeX|pdfTeX|Package|Class) ((.*) )?Warning.*:(.*)$", true);
+	static Regex reLaTeXWarning("^(! )?(LaTeX|pdfTeX|Package|Class) ((.*) )?Warning[^:]*: (.*)$", true);
 	static Regex reNoFile("No file (.*)");
 	// FIXME can be removed when http://sourceforge.net/tracker/index.php?func=detail&aid=1772022&group_id=120000&atid=685683 has promoted to the users
 	static Regex reNoAsyFile("File .* does not exist.");
