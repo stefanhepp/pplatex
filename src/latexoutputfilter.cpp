@@ -272,9 +272,19 @@ void LatexOutputFilter::updateFileStackHeuristic(const string &strLine, short & 
 		    nextIsTerminator = (c == ' ' || c == '\n' || c == '\t' || c == '\r' || c == ')') ? c : (char)0;
 		}
 
+
 		if(expectFileName && (isLastChar || nextIsTerminator)) {
 			//KILE_DEBUG() << "Update the partial filename " << strPartialFileName << endl;
+
 			strPartialFileName =  strPartialFileName + strLine.substr(index, i-index + 1);
+			if (nextIsTerminator == ' ' && i + 3 < strLine.length()) {
+				if (strLine[i+2] == '[' && strLine[i+3] >= '0' && strLine[i+3] <= '9' ) {
+					//KILE_DEBUG() << "Get correct current name" << strPartialFileName;
+					m_stackFile.push(LOFStackItem(strPartialFileName));
+					break;
+					}
+			}
+
 			// we may continue for dirnames with spaces in it
 			index = i + 1;
 
