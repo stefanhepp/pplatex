@@ -34,7 +34,7 @@
 #
 
 # Minimum requirement is probably much lower, but lets say 3.0 for now.
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.10)
 
 # Main project name
 project(pplatex)
