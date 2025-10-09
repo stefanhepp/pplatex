@@ -93,7 +93,7 @@ You can build either with SCons or CMake.
 
 - SCons (>= 1.2.0)
   http://www.scons.org/
-- CMake (>= 3.0)
+- CMake (>= 3.10)
   http://www.cmake.org/
 
 
