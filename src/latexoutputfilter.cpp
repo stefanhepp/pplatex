@@ -20,7 +20,6 @@
 
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <pcreposix.h>
 
 #include <cstdlib>
 #include <string>

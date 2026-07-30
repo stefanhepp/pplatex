@@ -25,7 +25,7 @@ if env['CC'] == 'cl':
 if env.get('PCREPATH', None) is not None:
     env.Append( LIBPATH=[ env['PCREPATH']+'/lib' ] )
     env.Append( CPPPATH=[ env['PCREPATH']+'/include' ] )
-env.Append( LIBS=['pcreposix'] )
+env.Append( LIBS=['pcre2-posix', 'pcre2-8'] )
 
 # Build the main program and copy it with different filenames
 latex = SConscript("src/SConscript", variant_dir="obj", duplicate=0, exports="env")

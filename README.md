@@ -78,13 +78,13 @@ Building
 Requirements
 ------------
 
-You will need a copy of PCRE (not PCRE2). Any version >= 7.0 should work fine.
+You will need a copy of PCRE2.
 
   http://www.pcre.org/
 
 On Ubuntu/Debian, you can get it with
 
-    sudo apt-get install libpcre3-dev
+    sudo apt-get install libpcre2-dev
 
 On Windows, either download the source package and build it with cmake, or
 download and unpack a precompiled binary package.
@@ -93,7 +93,7 @@ You can build either with SCons or CMake.
 
 - SCons (>= 1.2.0)
   http://www.scons.org/
-- CMake (>= 3.0)
+- CMake (>= 3.20)
   http://www.cmake.org/
 
 

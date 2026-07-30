@@ -9,7 +9,7 @@
 #ifndef __PPLATEX_REGEX_H__
 #define __PPLATEX_REGEX_H__
 
-#include <pcreposix.h>
+#include <pcre2posix.h>
 #include <string>
 
 using namespace std;
