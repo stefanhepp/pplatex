@@ -1,0 +1,9 @@
+This is pdfTeX, Version 3.14159265 (preloaded format=latex)
+**doc.tex
+(./doc.tex
+LaTeX2e <2014/05/01>
+(./chapter.tex [12] [13]
+! Undefined control sequence.
+l.42 \nosuch
+)
+)

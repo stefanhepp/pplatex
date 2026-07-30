@@ -1,0 +1,16 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (preloaded format=latex)
+entering extended mode
+**warning_colon.tex
+(./warning_colon.tex
+LaTeX2e <2014/05/01>
+
+Package hyperref Warning: Option `pdfpagelabels': turned off on input line 7.
+
+Class beamer Warning: Overwriting theme: default on input line 11.
+
+LaTeX Warning: Reference `sec:intro' on page 1 undefined on input line 15.
+
+)
+Here is how much of TeX's memory you used:
+ 1 string out of 1
+Output written on warning_colon.pdf (1 page).

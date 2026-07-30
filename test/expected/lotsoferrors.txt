@@ -1,0 +1,1191 @@
+** Warning in /usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseimage.sty, Line 13: 
+   (Package pgf) This package is obsolete and no longer needed on input line 13.
+
+** Warning in /usr/share/texmf/tex/latex/beamer/base/beamer.cls: 
+   (Package hyperref) Option `pdfpagelabels' is turned off because \thepage is undefined.
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Missing number, treated as zero <to be read again>  \hbox  \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox 
+   \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Missing number, treated as zero <to be read again>  } \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Missing number, treated as zero <to be read again>  \hbox  \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox 
+   \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Missing number, treated as zero <to be read again>  } \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 14: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \begin{document}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 20: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 24: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 35: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 42: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 49: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 70: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 91: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 110: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 128: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Missing number, treated as zero <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Illegal unit of measure (pt inserted) <to be read again>  \box  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Missing number, treated as zero <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Illegal unit of measure (pt inserted) <to be read again>  { \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+** BadBox  in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex: 
+   Overfull \hbox (56.90549pt too wide) has occurred while \output is active
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Undefined control sequence \Gm@lmargin ->\Geom@lmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Missing number, treated as zero <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Illegal unit of measure (pt inserted) <to be read again>  \hbox  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Undefined control sequence \Gm@rmargin ->\Geom@rmargin  \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Missing number, treated as zero <to be read again>  } \end{frame}
+
+** Error   in /home/stefan/Documents/Uni/DA/svn/thesis/presentations/final.tex, Line 141: 
+   Illegal unit of measure (pt inserted) <to be read again>  } \end{frame}
+
+Result: o) Errors: 374, Warnings: 2, BadBoxes: 20

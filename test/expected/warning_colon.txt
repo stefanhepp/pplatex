@@ -1,0 +1,10 @@
+** Warning in ./warning_colon.tex, Line 7: 
+   (Package hyperref) Option `pdfpagelabels': turned off on input line 7.
+
+** Warning in ./warning_colon.tex, Line 11: 
+   (Class beamer) Overwriting theme: default on input line 11.
+
+** Warning in ./warning_colon.tex, Line 15: 
+   Reference `sec:intro' on page 1 undefined on input line 15.
+
+Result: o) Errors: 0, Warnings: 3, BadBoxes: 0

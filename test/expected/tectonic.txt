@@ -1,0 +1,5 @@
+** Warning in test.tex: No file test.aux.
+
+** Error   in test.tex, Line 10: Missing $ inserted <inserted text>  $
+
+Result: o) Errors: 1, Warnings: 1, BadBoxes: 0

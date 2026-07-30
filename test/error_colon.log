@@ -1,0 +1,20 @@
+This is pdfTeX, Version 3.14159265 (preloaded format=latex)
+entering extended mode
+**error_colon.tex
+(./error_colon.tex
+LaTeX2e <2014/05/01>
+
+! Package biblatex Error: File 'error_colon.bbl' not created: run biber.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+l.12 \printbibliography
+
+! Class beamer Error: Overwriting theme: default is not allowed.
+
+l.20 \usetheme
+
+)
+Here is how much of TeX's memory you used:
+ 1 string out of 1
+Output written on error_colon.pdf (1 page).

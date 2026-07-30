@@ -23,6 +23,7 @@
 #include <pcreposix.h>
 
 #include <cstdlib>
+#include <cctype>
 #include <string>
 #include <sstream>
 #include <iostream>
@@ -80,6 +81,33 @@ static bool startsWith(const string &str, const string &match) {
 
 static bool startsWith(const string &str, char c) {
     return str.length() > 0 && str[0] == c;
+}
+
+/**
+ * Does this look like a filename TeX would have opened? Used when the file
+ * cannot be confirmed on disk, which is the normal case for class and package
+ * files that live in the distribution rather than next to the document.
+ */
+static bool looksLikeFileName(const string &str) {
+    size_t dot = str.find_last_of('.');
+
+    if ( dot == string::npos || dot == 0 || dot + 1 == str.length() ) {
+	return false;
+    }
+
+    // A short alphanumeric extension, so that prose such as "size option"
+    // is not mistaken for a file.
+    if ( str.length() - dot - 1 > 4 ) {
+	return false;
+    }
+
+    for (size_t i = dot + 1; i < str.length(); i++) {
+	if ( !isalnum((unsigned char)str[i]) ) {
+	    return false;
+	}
+    }
+
+    return true;
 }
 
 static bool endsWith(const string &str, char c) {
@@ -283,7 +311,14 @@ void LatexOutputFilter::updateFileStackHeuristic(const string &strLine, short & 
 			}
 
 			//FIXME: improve these heuristics
-			if((isLastChar && (i < 78)) || nextIsTerminator == ')' || nextIsTerminator == '\t' || fileExists(strPartialFileName)) {
+			// A '(' that never yields a pushed name is still popped by its
+			// matching ')', which drains the stack and eventually discards
+			// the real source file. Engines that pack several opens onto
+			// one line, such as Tectonic, hit this constantly; pdflatex
+			// mostly escapes it by wrapping at 79 columns, so its names
+			// land at the end of a line and take the isLastChar path.
+			if((isLastChar && (i < 78)) || nextIsTerminator == ')' || nextIsTerminator == '\t'
+			   || fileExists(strPartialFileName) || looksLikeFileName(strPartialFileName)) {
 				m_stackFile.push(LOFStackItem(strPartialFileName));
 				// KILE_DEBUG() << "\tpushed (i = " << i << " length = " << strLine.length() << "): " << strPartialFileName << endl;
 				expectFileName = false;
@@ -347,7 +382,14 @@ void LatexOutputFilter::flushCurrentItem()
     }
     */
 
-    string sourceFile = (m_stackFile.empty()) ? source() : m_stackFile.top().file();
+    string sourceFile;
+    if ( !m_fileLineSource.empty() ) {
+	// file:line:error named the file; trust it over the paren heuristic
+	sourceFile = m_fileLineSource;
+	m_fileLineSource.clear();
+    } else {
+	sourceFile = (m_stackFile.empty()) ? source() : m_stackFile.top().file();
+    }
     m_currentItem.setSource(sourceFile);
 
     switch (nItemType) {
@@ -381,7 +423,7 @@ bool LatexOutputFilter::detectError(const string & strLine, short &dwCookie)
 
 	bool found = false, flush = false;
 
-	static Regex reLaTeXError("^(! )?(LaTeX|pdfTeX|Package|Class) ((.*) )?Error.*:(.*)", true);
+	static Regex reLaTeXError("^(! )?(LaTeX|pdfTeX|Package|Class) ((.*) )?Error[^:]*: ?(.*)$", true);
 	static Regex rePDFLaTeXError("^Error: pdflatex (.*)$", true);
 	static Regex reTeXError("^! (.*)\\.$");
 	static Regex reLineNumber("^l\\.([0-9]+)(.*)");
@@ -460,6 +502,37 @@ bool LatexOutputFilter::detectError(const string & strLine, short &dwCookie)
 	return found;
 }
 
+/**
+ * Errors in "file:line:error" style, produced by -file-line-error. The format
+ * states the file and the line outright, so this bypasses both the parenthesis
+ * heuristic that tracks the current file and the scan for a following "l.<n>"
+ * context line.
+ */
+bool LatexOutputFilter::detectFileLineError(const string & strLine, short & dwCookie)
+{
+	// The file part is greedy so that a drive letter or any other colon in
+	// the path stays with the filename; only the last ":<digits>: " counts.
+	static Regex reFileLineError("^(.+):([0-9]+): (.+)$");
+
+	if(!reFileLineError.match(strLine)) {
+		return false;
+	}
+
+	m_fileLineSource = reFileLineError.getMatch(strLine, 1);
+
+	m_currentItem.setType(itmError);
+	m_currentItem.setOutputLine(GetCurrentOutputLine());
+	m_currentItem.setSourceLine(parseInt(reFileLineError.getMatch(strLine, 2)));
+	m_currentItem.setMessage(reFileLineError.getMatch(strLine, 3));
+
+	// Everything needed is on this one line, so emit it rather than waiting
+	// for a line number that this format never prints.
+	dwCookie = Start;
+	flushCurrentItem();
+
+	return true;
+}
+
 bool LatexOutputFilter::detectWarning(const string & strLine, short &dwCookie)
 {
 	//KILE_DEBUG() << "==LatexOutputFilter::detectWarning(" << strLine.length() << ")================" << endl;
@@ -473,7 +546,7 @@ bool LatexOutputFilter::detectWarning(const string & strLine, short &dwCookie)
 	bool found = false, flush = false;
 	string warning;
 
-	static Regex reLaTeXWarning("^(! )?(LaTeX|pdfTeX|Package|Class) ((.*) )?Warning.*:(.*)$", true);
+	static Regex reLaTeXWarning("^(! )?(LaTeX|pdfTeX|Package|Class) ((.*) )?Warning[^:]*: ?(.*)$", true);
 	static Regex reNoFile("No file (.*)");
 	// FIXME can be removed when http://sourceforge.net/tracker/index.php?func=detail&aid=1772022&group_id=120000&atid=685683 has promoted to the users
 	static Regex reNoAsyFile("File .* does not exist.");
@@ -517,8 +590,19 @@ bool LatexOutputFilter::detectWarning(const string & strLine, short &dwCookie)
 
 	    //warning spans multiple lines, detect the end
 	    case Warning :
-		flush = detectLaTeXLineNumber(warning, dwCookie, strLine.length());
+	    {
+		// The line-number scan needs the text of this continuation
+		// line; it used to receive the empty `warning` local, so a
+		// warning that carries its "on input line N." on a later line
+		// never got a source line. Strip trailing spaces first, the
+		// end-of-line anchors cannot see past them.
+		string cont = strLine;
+		size_t end = cont.find_last_not_of(" \t");
+		cont = (end == string::npos) ? "" : cont.substr(0, end+1);
+
+		flush = detectLaTeXLineNumber(cont, dwCookie, strLine.length());
 		m_currentItem.addMessage(strLine, needsSpace());
+	    }
 		break;
 
 	    default:
@@ -542,7 +626,10 @@ bool LatexOutputFilter::detectLaTeXLineNumber(string & warning, short & dwCookie
 	//KILE_DEBUG() << "==LatexOutputFilter::detectLaTeXLineNumber(" << warning.length() << ")================" << endl;
 
 	static Regex reLaTeXLineNumber("(.*) on input line ([0-9]+)\\.$", true);
-	static Regex reInternationalLaTeXLineNumber("(.*)([0-9]+)\\.$", true);
+	// The greedy (.*) must not eat into the number: on a line wrapped
+	// mid-word such as "e 13." it left only the final digit in group 2,
+	// reporting line 3 for line 13.
+	static Regex reInternationalLaTeXLineNumber("(.*[^0-9])([0-9]+)\\.$", true);
 
 	if(reLaTeXLineNumber.match(warning)) {
 		//KILE_DEBUG() << "een" << endl;
@@ -672,7 +759,8 @@ short LatexOutputFilter::parseLine(const string & strLine, short dwCookie)
 
 	switch (dwCookie) {
 		case Start :
-			if(!(detectBadBox(strLine, dwCookie) || detectWarning(strLine, dwCookie) || detectError(strLine, dwCookie))) {
+			if(!(detectBadBox(strLine, dwCookie) || detectWarning(strLine, dwCookie)
+			  || detectError(strLine, dwCookie) || detectFileLineError(strLine, dwCookie))) {
 				updateFileStack(strLine, dwCookie);
 			}
 		break;
@@ -706,6 +794,7 @@ short LatexOutputFilter::parseLine(const string & strLine, short dwCookie)
 bool LatexOutputFilter::run(FILE *out)
 {
 	m_nErrors = m_nWarnings = m_nBadBoxes = m_nParens = 0;
+	m_fileLineSource.clear();
 	m_nLastLineLength = 0;
 	while (!m_stackFile.empty()) {
 	    m_stackFile.pop();

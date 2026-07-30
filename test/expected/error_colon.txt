@@ -1,0 +1,9 @@
+** Error   in ./error_colon.tex, Line 12: 
+   (Package biblatex) File 'error_colon.bbl' not created: run biber.
+   See the biblatex package documentation for explanation.
+   \printbibliography
+
+** Error   in ./error_colon.tex, Line 20: 
+   (Class beamer) Overwriting theme: default is not allowed. \usetheme
+
+Result: o) Errors: 2, Warnings: 0, BadBoxes: 0

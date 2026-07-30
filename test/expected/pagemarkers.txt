@@ -1,0 +1,3 @@
+** Error   in ./chapter.tex, Line 42: Undefined control sequence \nosuch
+
+Result: o) Errors: 1, Warnings: 0, BadBoxes: 0

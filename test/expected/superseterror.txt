@@ -1,0 +1,27 @@
+** Warning in /usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseimage.sty, Line 13: 
+   (Package pgf) This package is obsolete and no longer needed on input line 13.
+
+** Warning in /usr/share/texmf/tex/latex/beamer/base/beamer.cls: 
+   (Package hyperref) Option `pdfpagelabels' is turned off because \thepage is undefined.
+
+** Warning in /home/stefan/Documents/Uni/Vorlesungen/TI Master/Distributed Algorithms for Wireless Networks/svn/tmp/ps/content.tex, Line 48: 
+   (Package hyperref) Token not allowed in a PDFDocEncoded string,
+   removing `\new@ifnextchar' on input line 48.
+
+** Warning in /home/stefan/Documents/Uni/Vorlesungen/TI Master/Distributed Algorithms for Wireless Networks/svn/tmp/ps/content.tex: 
+   No file presentation.nav.
+
+** BadBox  in /home/stefan/Documents/Uni/Vorlesungen/TI Master/Distributed Algorithms for Wireless Networks/svn/tmp/ps/content.tex, Line 203: 
+   Overfull \hbox (2.84398pt too wide) in paragraph
+
+** Warning in /home/stefan/Documents/Uni/Vorlesungen/TI Master/Distributed Algorithms for Wireless Networks/svn/tmp/ps/content.tex, Line 291: 
+   (LaTeX Font) Font shape `U/ulsy/m/n' in size <10.95> not available
+   size <10> substituted on input line 291.
+
+** Error   in /home/stefan/Documents/Uni/Vorlesungen/TI Master/Distributed Algorithms for Wireless Networks/svn/tmp/ps/content.tex, Line 355: 
+   Undefined control sequence <recently read> \superseteq  \end{frame}
+
+** Warning in /home/stefan/Documents/Uni/Vorlesungen/TI Master/Distributed Algorithms for Wireless Networks/svn/tmp/ps/content.tex: 
+   (LaTeX Font) Size substitutions with differences up to 0.95pt have occurred.
+
+Result: o) Errors: 1, Warnings: 6, BadBoxes: 1

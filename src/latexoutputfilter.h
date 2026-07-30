@@ -84,12 +84,19 @@ class LatexOutputFilter : public OutputFilter
 	virtual short parseLine(const std::string & strLine, short dwCookie);
 
 	bool detectError(const std::string & strLine, short &dwCookie);
+	bool detectFileLineError(const std::string & strLine, short &dwCookie);
 	bool detectWarning(const std::string & strLine, short &dwCookie);
 	bool detectBadBox(const std::string & strLine, short &dwCookie);
 	bool detectLaTeXLineNumber(std::string & warning, short & dwCookie, size_t len);
 	bool detectBadBoxLineNumber(std::string & strLine, short & dwCookie, size_t len);
 
 	bool fileExists(const std::string & name);
+
+	/**
+	Source file named by a file:line:error message. Overrides the file stack
+	for the current item only, since that format states the file outright.
+	*/
+	std::string m_fileLineSource;
 
 	/** 
 	Check if we need to add a space when we append a message to the last line 
